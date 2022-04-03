@@ -6,4 +6,9 @@ bazel-testlogs
 
 .env
 bazel-*
+
+#elasticsearch
 tmp
+
+#python
+__pycache__

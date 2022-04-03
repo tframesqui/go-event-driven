@@ -5,7 +5,7 @@ from kafka import KafkaProducer
 
 
 _DEFAULT_KAFKA_TOPIC = "products-integration"
-_DEFAULT_KAFKA_SERVER = "kafka:9092"
+_DEFAULT_KAFKA_SERVER = ["kafka:9092", "kafka-2:9093"]
 
 
 def get_producer():

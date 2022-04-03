@@ -19,7 +19,7 @@ def main():
         counter = counter + 1
         print(f"message sent {counter} / {total_messages}")
 
-    producer.flush()
+    producer.flush(30)
 
 
 if __name__ == "__main__":
