@@ -1,0 +1,9 @@
+#bazel
+bazel-bin
+bazel-go-event-driven
+bazel-out
+bazel-testlogs
+
+.env
+bazel-*
+tmp
